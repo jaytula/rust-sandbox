@@ -18,3 +18,9 @@ https://www.rust-lang.org/learn/get-started
 ## VSCode
 
 Install `Rust` extension for linting support.
+
+## Cargo
+
+- `cargo run` builds and runs
+- `cargo build` builds only
+- `cargo build --release` builds for production. Executable in `./target/release`
