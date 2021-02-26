@@ -13,4 +13,7 @@ pub fn run() {
 
   // Named Arguments
   println!("{name} likes to play {activity}", name = "John", activity = "Baseball" );
+
+  // Placeholder traits
+  println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10 );
 }
