@@ -16,4 +16,7 @@ pub fn run() {
 
   // Placeholder traits
   println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10 );
+
+  // Placeholder for debug trait. Tuple passed in.
+  println!("{:?}", (12, true, "hello"));
 }
