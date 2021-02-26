@@ -19,4 +19,7 @@ pub fn run() {
 
   // Placeholder for debug trait. Tuple passed in.
   println!("{:?}", (12, true, "hello"));
+
+  // Basic math
+  println!("10 + 10 = {}", 10 + 10);
 }
