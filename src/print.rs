@@ -4,4 +4,7 @@ pub fn run() {
 
   // Variable interpolation
   println!("Number: {}", 1);
+
+  // Basic Formatting. Multiple placeholders
+  println!("{} is from {}", "Brad", "Mass");
 }
