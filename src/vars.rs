@@ -13,4 +13,8 @@ pub fn run() {
   // Define constant. Not often used. Type is required.
   const ID: i32 = 001;
   println!("ID: {}", ID);
+
+  // Assign multiple vars
+  let ( my_name, my_age ) = ("Brad", 37);
+  println!("{} is {}", my_name, my_age);
 }
