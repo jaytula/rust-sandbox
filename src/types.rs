@@ -32,5 +32,9 @@ pub fn run() {
   // Get boolean from expression
   let is_greater = 10 < 5;
 
-  println!("{:?}", (x, y, z, is_active, is_greater))
+  // Char
+  let a1 = 'a';
+  let face = '\u{1F600}'; // emoji unicode smiley face
+
+  println!("{:?}", (x, y, z, is_active, is_greater, a1, face))
 }
