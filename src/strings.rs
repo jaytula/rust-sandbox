@@ -17,4 +17,18 @@ pub fn run() {
   // .pushStr from pushing strings
   hello_growable.push_str("More");
   println!("{}", hello_growable);
+
+  // Capacity in bytes
+  println!("Capacity: {}", hello_growable.capacity());
+
+  // Check if empty
+  println!("Is Empty: {}", hello_growable.is_empty());
+
+  // Contains
+  println!("Contains 'World' {}", hello_growable.contains("World"));
+  println!("Contains 'grow' {}", hello_growable.contains("grow"));
+
+  // Replace
+  println!("Replace 'More' with 'Less' {}", hello_growable.replace("More", "Less"));
+
 }
