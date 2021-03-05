@@ -31,4 +31,8 @@ pub fn run() {
   // Replace
   println!("Replace 'More' with 'Less' {}", hello_growable.replace("More", "Less"));
 
+  // Loop throubh string by whitespace
+  for word in hello_growable.split_whitespace() {
+    println!("{}", word);
+  }
 }
