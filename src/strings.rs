@@ -35,4 +35,14 @@ pub fn run() {
   for word in hello_growable.split_whitespace() {
     println!("{}", word);
   }
+
+  // Create string with capacity
+  let mut s = String::with_capacity(10);
+  s.push('a');
+  s.push('b');
+  println!("{}", s);
+
+  // Assertion testing
+  assert_eq!(2, s.len());
+  assert_eq!(10, s.capacity());
 }
