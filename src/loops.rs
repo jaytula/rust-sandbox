@@ -12,4 +12,20 @@ pub fn run() {
       break;
     }
   }
+
+  // While loop (FizzBuzz)
+  count = 0;
+  while count < 100 {
+    count += 1;
+    if count % 3 === 0 && count % 5 == 0 {
+      println!("{}: {}", count, "fizzbuzz");
+    } else if count % 3 == 0 {
+      println!("{}: {}", count, "fizz")
+    } else if count % 5 == 0 {
+      println!("{}: {}", count, "buzz")
+    } else {
+      println!("{}: {}", count, "Nothing Special")
+    }
+  }
+
 }
